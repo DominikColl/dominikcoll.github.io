@@ -29,9 +29,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
+
             <a class="navbar-brand" href="index.html">
                 <img src='img/icon.svg' id='icon01' width="30px" height='30px'>
             </a>
+
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -66,14 +68,14 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/planning.jpg')">
+    <header class="masthead" style="background-image: url(' img/spacex.jpg ')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="page-heading">
-                        <h1>Agile Method</h1>
-                        <!-- <span class="subheading">Have questions? I have answers.</span> -->
+                    <div class="site-heading">
+                        <h1>Projects</h1>
+                        <!-- <span class="subheading">Dominik Colls Portfolio Website</span> -->
                     </div>
                 </div>
             </div>
@@ -82,42 +84,38 @@
 
     <!-- Main Content -->
     <div class="container">
-        <h1>Agile</h1>
-        <p>When working I use the Agile method to plan out the project from start to finish there are multiple steps to the
-            Agile method.</p>
-        <ul>
-            <li>
-                <h2>Plan</h2>
-                <p>This is the start to every project. With planning we decide what features are needed and what the goals of
-                    the app are. </p>
-            </li>
-            <li>
-                <h2>Design</h2>
-                <p>Design is the fun part where we choose colors and make branding decisons. Logos and photos that will be used
-                    on the site are chosen in this stage. </p>
-            </li>
-            <li>
-                <h2>Develop</h2>
-                <p>This is the developing stage all the features and design come together and by the end youll have a rough
-                    copy of your app.</p>
-            </li>
-            <li>
-                <h2>Test</h2>
-                <p>Testing is when we will go through the app and test everything from functionality on all browsers to adjusting
-                    colors for the visually impaired.</p>
-            </li>
-            <li>
-                <h2>Release</h2>
-                <p>Release is when the site will go live and everybody will be able to find your site.</p>
-            </li>
-            <li>
-                <h2>Feedback</h2>
-                <p>This is when I get back feedback and make any changes that are wanted.</p>
-            </li>
-        </ul>
-
+        <div class="row">
+            <h1 id="githubInfo">All repos can be found at
+                <a href="https://github.com/DominikColl" target="_blank">
+                    <span class="fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </h1>
+        </div>
+        <div class="row">
+            <ul>
+                <li>
+                    <h2>
+                        <a href="https://dominikcoll.github.io/DominikColl_ProjectPort5/#/" target="_blank">Music Data App</a>
+                    </h2>
+                    <img class='projectPics' src="img/Livefm.png" alt="Project Pic">
+                    <p>This is built using React. You can search for any song artist or album and it will come up with results
+                        and data. The data is being grabbed from LiveFm API</p>
+                </li>
+                <hr>
+                <li>
+                    <h2>Quiz App</h2>
+                </li>
+                <hr>
+                <li>
+                    <h2>Grading App</h2>
+                </li>
+                <hr>
+            </ul>
+        </div>
     </div>
-
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -158,10 +156,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>

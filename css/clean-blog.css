@@ -463,3 +463,9 @@ footer .copyright {
 #listLinks a{
   display: block;
 }
+#githubInfo{
+  margin-left: 36%;
+}
+.projectPics{
+  width: 40%;
+}
